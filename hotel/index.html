@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Elegante</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="hotel-title">Hotel Elegante</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="./bd/bd_room_delete.php" class="btn-login">Log In</a></li>
+                <li><a href="./bd/bd_register.php" class="btn-register">Register</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="./bd/bd_room_insert.php">Add Room</a></li>
+                <li><a href="./bd/bd_room_update.php">Update Room</a></li>
+                <li><a href="./bd/bd_room_delete.php">Delete Room</a></li>
+                <li><a href="./bd/bd_customer_insert.php">Add Customer</a></li>
+                <li><a href="./bd/bd_customer_update.php">Update Customer</a></li>
+                <li><a href="./bd/bd_customer_delete.php">Delete Customer</a></li>
+                <li><a href="./bd/bd_reservation_insert.php">Add Reservation</a></li>
+                <li><a href="./bd/bd_reservation_update.php">Update Reservation</a></li>
+                <li><a href="./bd/bd_reservation_delete.php">Delete Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner" class="banner-section">
+        <h2>Bienvenido a nuestro hotel</h2>
+        <p>Disfruta de una estancia lujosa y relajante.</p>
+        <a href="./bd/bd_show_rooms.php" class="btn-reserva">Reservar Ahora</a>
+        
+    </section>
+
+    <section id="habitaciones" class="habitaciones-section">
+        <h2>Nuestras Habitaciones</h2>
+        <div class="habitacion">
+            <img src="./img/lujosa.jpg" alt="Habitación de lujo">
+            <h3>Habitación de Lujo</h3>
+            <p>Una habitación espaciosa con vistas impresionantes.</p>
+            <a href="#reservas" class="btn-reserva">Reservar</a>
+        </div>
+        <div class="habitacion">
+            <img src="habitacion2.jpg" alt="Suite Ejecutiva">
+            <h3>Suite Ejecutiva</h3>
+            <p>La suite perfecta para viajeros de negocios.</p>
+            <a href="#reservas" class="btn-reserva">Reservar</a>
+        </div>
+    </section>
+
+</body>
+</html>
